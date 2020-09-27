@@ -1,0 +1,27 @@
+{
+  "name": "trash-node-modules",
+  "version": "0.0.2",
+  "description": "Move node_modules to trash recursively.",
+  "main": "index.js",
+  "bin": {
+    "trash-node-modules": "bin/command.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/john-yuan/trash-node-modules.git"
+  },
+  "author": "John Yuan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/john-yuan/trash-node-modules/issues"
+  },
+  "keywords": [ "trash", "delete", "node_modules", "recursively" ],
+  "homepage": "https://github.com/john-yuan/trash-node-modules#readme",
+  "dependencies": {
+    "del": "^6.0.0",
+    "trash": "^6.1.1"
+  }
+}
