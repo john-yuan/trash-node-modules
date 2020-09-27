@@ -1,6 +1,6 @@
 {
   "name": "trash-node-modules",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Move node_modules to trash recursively.",
   "main": "index.js",
   "bin": {
